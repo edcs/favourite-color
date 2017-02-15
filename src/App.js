@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import colors from process.env.COLOR_SRC;
+import colors from '../../tmp/colors.json';
 import './App.css';
 
 class App extends Component {
