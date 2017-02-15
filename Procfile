@@ -1,3 +1,3 @@
-web: npm run trawl
-web: npm run build
-web: npm run deploy
+web: yarn run trawl
+web: yarn run build
+web: yarn run deploy
