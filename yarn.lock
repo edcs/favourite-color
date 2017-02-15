@@ -1948,7 +1948,7 @@ eventsource@^0.1.3:
 
 "everycolor-trawler@git+https://github.com/edcs/everycolor-trawler":
   version "1.0.0"
-  resolved "git+https://github.com/edcs/everycolor-trawler#8aab97422a2e05c742540af800671ff5ad097a54"
+  resolved "git+https://github.com/edcs/everycolor-trawler#79729ea433b3e8c0b03f014ecb2315f7d383e876"
   dependencies:
     cli "^1.0.1"
     dotenv "^2.0.0"
