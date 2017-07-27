@@ -1,24 +1,45 @@
 .App {
-    margin: 0;
-    padding: 0;
-    line-height: 0;
-    text-align: center;
-    border: 0.75rem solid #ffffff;
-    font-family: 'Space Mono', monospace;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  text-align: center;
+  border: 0.75rem solid #ffffff;
 }
 
 .App>li {
-    width: 13%;
-    opacity: 0.5;
-    cursor: pointer;
-    padding-top: 13%;
-    list-style: none;
-    border-radius: 50%;
-    display: inline-block;
-    transition: opacity 0.25s;
-    border: 0.6rem solid #ffffff;
+  width: 13%;
+  cursor: pointer;
+  padding-top: 13%;
+  list-style: none;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  border: 0.6rem solid #ffffff;
 }
 
-.App>li:hover {
-    opacity: 1;
+.App>li a {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  position: absolute;
+}
+
+.App>li span {
+  left: 0;
+  right: 0;
+  display: block;
+  position: absolute;
+  text-align: center;
+}
+
+.App>li span.rts {
+  margin-top: -12px;
+  top: 50%;
+}
+
+.App>li span.hearts {
+  margin-bottom: -12px;
+  bottom: 50%;
 }
