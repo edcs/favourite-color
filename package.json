@@ -5,16 +5,17 @@
   "homepage": "/",
   "devDependencies": {
     "gh-pages": "^0.12.0",
-    "react-scripts": "0.8.4"
+    "react-scripts": "0.8.4",
+    "everycolor-trawler": "git+https://github.com/edcs/everycolor-trawler"
   },
   "dependencies": {
-    "everycolor-trawler": "git+https://github.com/edcs/everycolor-trawler",
     "react": "^15.4.1",
     "react-dom": "^15.4.1"
   },
   "scripts": {
+    "trawl": "trawl",
     "start": "react-scripts start",
-    "build": "./node_modules/.bin/trawl && react-scripts build",
+    "build": "trawl && react-scripts build",
     "deploy": "yarn build && gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
