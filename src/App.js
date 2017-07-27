@@ -34,6 +34,14 @@ class App extends Component {
           To find out more, check out <a href="https://github.com/edcs/favourite-color">
           github.com/edcs/favourite-color</a>
         </p>
+        <div id="remix-on-glitch">
+          <a href="https://glitch.com/edit/#!/remix/favourite-colour">
+            <img
+              src="https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg"
+              alt="Remix on Glitch"
+            />
+          </a>
+        </div>
         <ul className="App">
           {this.listItems()}
         </ul>

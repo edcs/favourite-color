@@ -17,3 +17,10 @@ p {
 a {
   color: blue;
 }
+
+#remix-on-glitch {
+  right: 0;
+  top: 60px;
+  position: absolute;
+  transform: rotate(45deg);
+}
